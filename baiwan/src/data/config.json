@@ -1,0 +1,43 @@
+{
+  "app": {
+    "targetFPS": 60,
+    "canvasId": "app"
+  },
+  "camera": {
+    "fov": 60,
+    "near": 0.1,
+    "far": 2000,
+    "initialPosition": { "x": 50, "y": 50, "z": 50 }
+  },
+  "rendering": {
+    "shadowMapSize": {
+      "high": 4096,
+      "medium": 2048,
+      "low": 1024,
+      "minimal": 512
+    },
+    "postProcessing": {
+      "bloom": {
+        "threshold": 0.8,
+        "strength": 1.0,
+        "radius": 0.5
+      },
+      "ssao": {
+        "samples": 16,
+        "radius": 0.1
+      }
+    }
+  },
+  "ocean": {
+    "waveHeight": 2.0,
+    "waveSpeed": 1.0,
+    "colors": {
+      "deep": "#001a33",
+      "shallow": "#006699"
+    }
+  },
+  "dayNight": {
+    "cycleSpeed": 0.01,
+    "sunDistance": 500
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "nav": {
+    "story": "City Story",
+    "energy": "Energy System",
+    "tech": "Technology",
+    "environment": "City Design",
+    "population": "Population",
+    "upload": "Data Upload",
+    "models": "Models",
+    "story_desc": "City Chronicles",
+    "energy_desc": "Energy Matrix",
+    "tech_desc": "Innovation",
+    "environment_desc": "Urban Planning",
+    "population_desc": "Demographics",
+    "switchToNight": "Switch to Night",
+    "switchToDay": "Switch to Day"
+  },
+  "hero": {
+    "title": "Yunluji",
+    "subtitle": "After the collapse of the old world, 2048 chosen ones build a symbiotic homeland.",
+    "start": "Start Journey"
+  },
+  "story": {
+    "title": "City Chronicles",
+    "subtitle": "In 2099, Earth's ecology collapsed, and Professor Gu passed away in the Qinling Mountains. On January 1, 2100, Project 'Wuyi' was launched, and 2048 'Chosen Ones' left Earth to carry out the mission of civilization continuity. Carrying the concept of 'Symbiotic Homeland', they rebuilt a society where humans and nature coexist in harmony under extreme conditions.",
+    "items": {
+      "foundation": {
+        "title": "First Habitation Module Built",
+        "desc": "The first module of the City of Project Wuyi was planted, utilizing advanced terraforming tech."
+      },
+      "energy": {
+        "title": "Fusion Energy System Online",
+        "desc": "Fusion core comes online, providing infinite clean energy."
+      },
+      "transport": {
+        "title": "Maglev Transport System Enabled",
+        "desc": "Efficient, silent maglev network connects every corner of the city."
+      },
+      "expansion": {
+        "title": "Project 'Wuyi' Officially Launched",
+        "desc": "2048 Chosen Ones embark on the journey to ensure civilization's survival."
+      },
+      "quantum": {
+        "title": "Quantum Folding R&D Begins",
+        "desc": "Exploring the limits of spatial compression and transmission for interstellar expansion."
+      },
+      "era": {
+        "title": "Spatial Folding System Mature",
+        "desc": "The City of Project Wuyi achieves instant cross-galaxy transmission, starting a new era."
+      }
+    }
+  },
+  "energy": {
+    "title": "Energy Matrix",
+    "subtitle": "Clean energy system led by Solar + Nuclear",
+    "stats": {
+      "output": "Annual Consumption",
+      "solar": "Per Capita",
+      "aero": "New Budget",
+      "storage": "Storage Capacity"
+    },
+    "distribution": {
+      "title": "Energy Structure",
+      "solar_nuclear": "Solar + Nuclear (75.26%)",
+      "wind": "Wind (16.49%)",
+      "tidal": "Tidal (8.25%)",
+      "geo": "Geothermal (Heating)"
+    },
+    "future": "Quantum Folding Tech daily operation consumes ~20,000 kWh, accounting for 59.4% of new energy budget. Fully feasible. Total: 657,000 MWh/yr."
+  },
+  "living": {
+    "title": "Living & Lifestyle",
+    "subtitle": "Future lifestyle of high-tech and nature symbiosis",
+    "types": {
+      "single": "Single Room (224 units, 150m³)",
+      "double": "Double Room (230 units, 220m³)",
+      "multi": "Multi Room (378 units, 350m³)"
+    },
+    "scenes": {
+      "ocean": {
+        "title": "Ocean Symbiosis",
+        "desc": "'Surge · Hidden Mansion', semi-submersible structure, underwater view."
+      },
+      "forest": {
+        "title": "Forest Healing",
+        "desc": "'Forest Breath · Sanctuary Valley', vertical forest architecture, nature integration."
+      }
+    },
+    "tech": {
+      "title": "Smart Home Tech",
+      "desc": "Equipped with smart dimming glass, holographic comms, mmWave health monitoring, embedded cryo-capsules."
+    }
+  },
+  "control": {
+    "title": "Control Center",
+    "subtitle": "The Intelligent Brain of the City of Project Wuyi",
+    "depts": {
+      "ai": {
+        "title": "AI Service Unified Management",
+        "desc": "Monitor & coordinate all public AI services."
+      },
+      "id": {
+        "title": "Identity & Info Admin",
+        "desc": "Maintain global identity & asset chain."
+      },
+      "admin": {
+        "title": "World Admin Coordination",
+        "desc": "Handle global crises, macro strategy."
+      }
+    },
+    "personnel": "~260 permanent + 1600 citizen rotation"
+  },
+  "tech": {
+    "title": "Limitless Innovation",
+    "subtitle": "Core technology system driving the Symbiotic Homeland",
+    "core": {
+      "title": "Core Technologies",
+      "living": {
+        "title": "Living Tech",
+        "desc": "Ocean Gate (Semi-submersible), Forest Cabins (Vertical forest), Transparent Solar Glass, Self-healing Concrete."
+      },
+      "smart": {
+        "title": "Smart Home",
+        "desc": "Micro-climate clothing, Active smart home, Connected kitchen."
+      },
+      "transport": {
+        "title": "Transport Tech",
+        "desc": "Maglev trains (Carbon nanotube carriages), Smart scheduling algorithms."
+      },
+      "energy": {
+        "title": "Energy Tech",
+        "desc": "Solar + Nuclear (Primary), Wind + Tidal (Secondary)."
+      }
+    },
+    "stages": {
+      "title": "Development Stages",
+      "s1": {
+        "year": "2200-2230",
+        "desc": "Foundation & Prototyping"
+      },
+      "s2": {
+        "year": "2230-2270",
+        "desc": "Expansion & Interconnection"
+      },
+      "s3": {
+        "year": "2270-2300",
+        "desc": "Full Integration into Society & Culture"
+      }
+    },
+    "future": {
+      "title": "Future Development",
+      "quantum": {
+        "title": "Quantum Folding Space",
+        "desc": "Spatial dynamic change via modular timing multiplexing; same area serves different functions at different times."
+      }
+    }
+  },
+  "environment": {
+    "title": "City Overall Design",
+    "subtitle": "Symbiotic Planning based on Liugong Island",
+    "mapTitle": "Five City Zones",
+    "zones": {
+      "coral": {
+        "title": "Coral Reef Street",
+        "desc": "City core, commercial and cultural hub."
+      },
+      "forest": {
+        "title": "Forest Sanctuary",
+        "desc": "Northern residential area, Chinese pastoral style."
+      },
+      "tidal": {
+        "title": "Tidal Living Room",
+        "desc": "Southeast marine living area, translucent floating architecture."
+      },
+      "canyon": {
+        "title": "Sun Canyon",
+        "desc": "Southwest industrial area, energy and agriculture base."
+      },
+      "garden": {
+        "title": "Serene Garden",
+        "desc": "Healing green belt running through the city, connecting all zones."
+      }
+    },
+    "principles": {
+      "title": "Design Principles",
+      "p1": "Symbiotic Homeland",
+      "p2": "Nurturer Culture",
+      "p3": "Mind-Body Harmony"
+    },
+    "design_module": {
+      "title": "Environment Design",
+      "subtitle": "Interactive terrain analysis and zone planning module. Select a zone to inspect details.",
+      "back": "Back",
+      "reset_view": "Reset View",
+      "loading": "Loading",
+      "viewing": "Viewing",
+      "cards": {
+        "central": {
+          "title": "Central District",
+          "desc": "The heart of the Million Cubic City, featuring the main transport hub and vertical gardens."
+        },
+        "energy": {
+          "title": "Energy Core",
+          "desc": "Fusion reactor integration point providing sustainable power to the entire mega-structure."
+        },
+        "residential": {
+          "title": "Residential Zone A",
+          "desc": "High-density modular living spaces with integrated community centers."
+        },
+        "eco": {
+          "title": "Eco-Sanctuary",
+          "desc": "Preserved natural habitat layer ensuring biodiversity within the urban environment."
+        }
+      }
+    }
+  },
+  "population": {
+    "title": "Demographics",
+    "subtitle": "Symbiotic Community of 2048 Chosen Ones",
+    "total": "Total Population",
+    "types": {
+      "infants": "Infants (4.2%)",
+      "students": "Students (22.6%)",
+      "young_workers": "Young Workers (14.7%)",
+      "mid_workers": "Mid-aged Workers (34.1%)",
+      "retirees": "Retirees (7.0%)"
+    },
+    "stats": {
+      "happiness": "Happiness Index",
+      "employment": "Employment Rate",
+      "literacy": "Education Rate"
+    }
+  },
+  "upload": {
+    "title": "World Data & Models",
+    "subtitle": "Share your findings, models, and contribute to the archive",
+    "selectModule": "Select Target Module",
+    "currentModule": "Current Module",
+    "dropzone": "Drag & drop files here, or click to select",
+    "supports": "Supports PDF, PNG, JPG, MP4",
+    "supports3d": "Supports OBJ, GLTF, FBX",
+    "preview": "Preview",
+    "comments": "Comments",
+    "submit": "Submit Data",
+    "placeholder": "Add a comment...",
+    "noComments": "No comments yet. Be the first!",
+    "success": "Upload Successful!",
+    "audit": "Status: Pending Audit"
+  },
+  "city": {
+    "hotspots": {
+      "hub": {
+        "label": "Central Hub",
+        "content": "The heart of Neo-City, powering 80% of the grid with fusion energy."
+      },
+      "eco": {
+        "label": "Eco Zone",
+        "content": "Vertical gardens providing fresh oxygen for the downtown district."
+      }
+    },
+    "controls": "Left Click to Rotate • Right Click to Pan • Scroll to Zoom"
+  },
+  "footer": {
+    "rights": "© 2100 Neo-City Project. All rights reserved.",
+    "design": "Designed for the Future."
+  }
+}

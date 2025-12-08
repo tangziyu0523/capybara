@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>模型调整提案预览</title>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #0066cc; margin-top: 30px; }
+        h3 { color: #444; }
+        .preview-link { display: inline-block; background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; font-weight: bold; }
+        .preview-link:hover { background: #218838; }
+        code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: monospace; }
+        .note { background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="note">
+        <strong>文件说明：</strong> 您之前尝试打开的 <code>.opencode/command/openspec-proposal.md</code> 是系统指令模板文件。实际的调整提案内容如下所示。
+    </div>
+
+    <a href="http://localhost:5174/" target="_blank" class="preview-link">👉 点击查看 3D 场景预览 (http://localhost:5174/)</a>
+
+    <h1>Proposal: Forest Cabin Scale Adjustment and Tidal Optimization</h1>
+
+    <h2>Why</h2>
+    <p>Currently, the "Forest Habitat" (林间小屋) models are disproportionately small compared to the standard city buildings, breaking immersion.</p>
+    <ul>
+        <li><strong>Scale Mismatch</strong>: Cabins appear as miniatures rather than functional dwellings.</li>
+        <li><strong>Density Issues</strong>: The Tidal Lounge area is cluttered, reducing the impact of key architectural forms.</li>
+        <li><strong>Landmark Void</strong>: The central area lacks a distinct visual anchor.</li>
+    </ul>
+
+    <h2>What Changes</h2>
+
+    <h3>1. Forest Cabin Rescaling</h3>
+    <ul>
+        <li><strong>Benchmarking</strong>: Analyze standard <code>commercial</code> and <code>industrial</code> building dimensions (approx. volume 2000-3000).</li>
+        <li><strong>Adjustment</strong>: Scale Forest Cabins to match this "standard dwelling" size (approx 10-15m height).</li>
+        <li><strong>Tree Coordination</strong>: Synchronize tree scale to ensure they remain imposing relative to the larger cabins.</li>
+    </ul>
+
+    <h3>2. Tidal Lounge Optimization</h3>
+    <ul>
+        <li><strong>Density Reduction</strong>: Reduce the generation count by 25% to de-clutter the area.</li>
+        <li><strong>Central Landmark</strong>: Introduce a large "Ellipsoid Landmark" at the center of the Tidal district.</li>
+    </ul>
+
+    <h3>3. Technical Updates</h3>
+    <ul>
+        <li><strong>Collision Volumes</strong>: Ensure the scaled-up geometry has correct bounding volumes (handled via Three.js <code>computeBoundingSphere/Box</code>).</li>
+        <li><strong>LOD</strong>: Ensure simple geometries (Cylinder/Cone) remain performant.</li>
+    </ul>
+
+    <h2>Impact</h2>
+    <ul>
+        <li><strong>Visuals</strong>: A more coherent city scale where a "house" looks like a house everywhere.</li>
+        <li><strong>Performance</strong>: Reduced draw calls in Tidal area due to lower density.</li>
+        <li><strong>Navigation</strong>: Better landmarking with the new central ellipsoid.</li>
+    </ul>
+
+</body>
+</html>

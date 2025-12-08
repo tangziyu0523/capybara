@@ -1,0 +1,58 @@
+{
+  "districts": [
+    {
+      "id": "d_center",
+      "name": "Central Core",
+      "chineseName": "核心双塔",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "color": "#aaddff",
+      "totalVolume": 400000,
+      "buildingType": "commercial",
+      "buildings": []
+    },
+    {
+      "id": "d_tidal",
+      "name": "Tidal Lounge",
+      "chineseName": "潮汐客厅",
+      "position": {
+        "x": 200,
+        "y": 0,
+        "z": 0
+      },
+      "color": "#44eeee",
+      "totalVolume": 200000,
+      "buildingType": "public",
+      "floating": true
+    },
+    {
+      "id": "d_forest",
+      "name": "Forest Home",
+      "chineseName": "林语栖所",
+      "position": {
+        "x": -150,
+        "y": 0,
+        "z": 0
+      },
+      "color": "#88cc44",
+      "totalVolume": 250000,
+      "buildingType": "residential"
+    },
+    {
+      "id": "d_sunvalley",
+      "name": "Sun Valley",
+      "chineseName": "阳光峡谷",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 150
+      },
+      "color": "#ffaa44",
+      "totalVolume": 300000,
+      "buildingType": "industrial"
+    }
+  ]
+}

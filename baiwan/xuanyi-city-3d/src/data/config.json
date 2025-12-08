@@ -1,0 +1,55 @@
+{
+  "scene": {
+    "backgroundColor": "#87ceeb",
+    "fogEnabled": true,
+    "fogColor": "#87ceeb",
+    "fogNear": 500,
+    "fogFar": 2000
+  },
+  "camera": {
+    "fov": 60,
+    "near": 1,
+    "far": 10000,
+    "initialPosition": [300, 200, 400],
+    "initialTarget": [0, 0, 0],
+    "minDistance": 50,
+    "maxDistance": 2000
+  },
+  "lighting": {
+    "initialTimeOfDay": 0.35,
+    "autoCycle": false,
+    "cycleSpeed": 0.01,
+    "shadowMapSize": 2048
+  },
+  "ocean": {
+    "enabled": true,
+    "size": 2000,
+    "subdivisions": 128,
+    "waveHeight": 2.0,
+    "waveFrequency": 0.05,
+    "deepColor": [0, 0.1, 0.3],
+    "shallowColor": [0, 0.4, 0.6],
+    "fresnelPower": 3.0
+  },
+  "buildings": {
+    "defaultHeight": 20,
+    "minHeight": 5,
+    "maxHeight": 150,
+    "lodDistances": [100, 300, 600]
+  },
+  "postProcessing": {
+    "enabled": true,
+    "ssao": true,
+    "bloom": true,
+    "bloomIntensity": 0.5,
+    "bloomThreshold": 0.85,
+    "smaa": true,
+    "toneMapping": true
+  },
+  "performance": {
+    "targetFPS": 60,
+    "maxDrawCalls": 300,
+    "maxTriangles": 2000000,
+    "adaptiveQuality": true
+  }
+}

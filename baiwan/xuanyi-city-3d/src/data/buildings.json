@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "totalVolume": 1000000,
+    "unit": "m³",
+    "scale": 1
+  },
+  "buildingTypes": {
+    "residential": { "color": "#3498db", "label": "居住" },
+    "commercial": { "color": "#9b59b6", "label": "商业" },
+    "industrial": { "color": "#e74c3c", "label": "工业" },
+    "agriculture": { "color": "#27ae60", "label": "农业" },
+    "energy": { "color": "#f39c12", "label": "能源" },
+    "public": { "color": "#1abc9c", "label": "公共服务" },
+    "landmark": { "color": "#00ffff", "label": "地标" },
+    "hotel": { "color": "#e91e63", "label": "酒店" }
+  },
+  "districts": {
+    "coralStreet": {
+      "id": "coral-street",
+      "name": "珊瑚礁街",
+      "nameEn": "Coral Reef Street",
+      "position": [0, 0, 0],
+      "totalVolume": 350000,
+      "color": "#3498db",
+      "buildings": [
+        {
+          "id": "cs-001",
+          "name": "城市意识塔",
+          "type": "landmark",
+          "volume": 115000,
+          "floors": 25,
+          "position": [0, 0, 0],
+          "special": {
+            "glow": true,
+            "glowColor": "#00ffff",
+            "glowIntensity": 2.0
+          }
+        },
+        {
+          "id": "cs-002",
+          "name": "商业街区A",
+          "type": "commercial",
+          "volume": 45000,
+          "position": [-80, 0, 60]
+        },
+        {
+          "id": "cs-003",
+          "name": "商业街区B",
+          "type": "commercial",
+          "volume": 35000,
+          "position": [80, 0, -40]
+        },
+        {
+          "id": "cs-004",
+          "name": "文化中心",
+          "type": "public",
+          "volume": 25000,
+          "position": [-50, 0, -80]
+        },
+        {
+          "id": "cs-005",
+          "name": "商业综合体",
+          "type": "commercial",
+          "volume": 55000,
+          "position": [60, 0, 80]
+        },
+        {
+          "id": "cs-006",
+          "name": "餐饮街",
+          "type": "commercial",
+          "volume": 20000,
+          "position": [-100, 0, 20]
+        },
+        {
+          "id": "cs-007",
+          "name": "娱乐中心",
+          "type": "public",
+          "volume": 30000,
+          "position": [100, 0, 40]
+        },
+        {
+          "id": "cs-008",
+          "name": "小型商铺群",
+          "type": "commercial",
+          "volume": 25000,
+          "count": 5,
+          "position": [20, 0, -100]
+        }
+      ]
+    },
+    "sunValley": {
+      "id": "sun-valley",
+      "name": "阳光峡谷",
+      "nameEn": "Sun Valley",
+      "position": [-300, 0, 150],
+      "totalVolume": 300000,
+      "color": "#e67e22",
+      "buildings": [
+        {
+          "id": "sv-001",
+          "name": "智能温室A",
+          "type": "agriculture",
+          "volume": 30000,
+          "position": [0, 0, 0]
+        },
+        {
+          "id": "sv-002",
+          "name": "智能温室B",
+          "type": "agriculture",
+          "volume": 25800,
+          "position": [-60, 0, 40]
+        },
+        {
+          "id": "sv-003",
+          "name": "垂直农场",
+          "type": "agriculture",
+          "volume": 45000,
+          "position": [50, 0, -30]
+        },
+        {
+          "id": "sv-004",
+          "name": "食品加工厂",
+          "type": "industrial",
+          "volume": 35000,
+          "position": [-40, 0, -70]
+        },
+        {
+          "id": "sv-005",
+          "name": "化学原料厂",
+          "type": "industrial",
+          "volume": 48081,
+          "position": [70, 0, 60]
+        },
+        {
+          "id": "sv-006",
+          "name": "太阳能发电站",
+          "type": "energy",
+          "volume": 40000,
+          "position": [-80, 0, 80]
+        },
+        {
+          "id": "sv-007",
+          "name": "储能中心",
+          "type": "energy",
+          "volume": 25000,
+          "position": [30, 0, 90]
+        },
+        {
+          "id": "sv-008",
+          "name": "物流中心",
+          "type": "industrial",
+          "volume": 30000,
+          "position": [-20, 0, -100]
+        },
+        {
+          "id": "sv-009",
+          "name": "研发实验室",
+          "type": "public",
+          "volume": 21119,
+          "position": [90, 0, -60]
+        }
+      ]
+    },
+    "forestHome": {
+      "id": "forest-home",
+      "name": "林语栖所",
+      "nameEn": "Forest Home",
+      "position": [0, 0, -250],
+      "totalVolume": 267050,
+      "color": "#27ae60",
+      "buildings": [
+        {
+          "id": "fh-001",
+          "name": "竹林公寓A",
+          "type": "residential",
+          "volume": 40000,
+          "position": [-50, 0, 0]
+        },
+        {
+          "id": "fh-002",
+          "name": "竹林公寓B",
+          "type": "residential",
+          "volume": 38120,
+          "position": [50, 0, 20]
+        },
+        {
+          "id": "fh-003",
+          "name": "中式庭院别墅区A",
+          "type": "residential",
+          "volume": 50000,
+          "position": [-80, 0, -60]
+        },
+        {
+          "id": "fh-004",
+          "name": "中式庭院别墅区B",
+          "type": "residential",
+          "volume": 45000,
+          "position": [80, 0, -40]
+        },
+        {
+          "id": "fh-005",
+          "name": "中式庭院别墅区C",
+          "type": "residential",
+          "volume": 47600,
+          "position": [0, 0, -80]
+        },
+        {
+          "id": "fh-006",
+          "name": "社区学校",
+          "type": "public",
+          "volume": 15000,
+          "position": [-100, 0, 40]
+        },
+        {
+          "id": "fh-007",
+          "name": "医疗中心",
+          "type": "public",
+          "volume": 12000,
+          "position": [100, 0, 60]
+        },
+        {
+          "id": "fh-008",
+          "name": "疗愈花园中心",
+          "type": "public",
+          "volume": 10000,
+          "position": [0, 0, 50]
+        },
+        {
+          "id": "fh-009",
+          "name": "老年公寓",
+          "type": "residential",
+          "volume": 9330,
+          "position": [-30, 0, 80]
+        }
+      ]
+    },
+    "tidalLounge": {
+      "id": "tidal-lounge",
+      "name": "潮汐客厅",
+      "nameEn": "Tidal Lounge",
+      "position": [250, 0, 100],
+      "totalVolume": 246670,
+      "color": "#1abc9c",
+      "floating": true,
+      "buildings": [
+        {
+          "id": "tl-001",
+          "name": "海景智能公寓A",
+          "type": "residential",
+          "volume": 60000,
+          "position": [-40, 0, 0]
+        },
+        {
+          "id": "tl-002",
+          "name": "海景智能公寓B",
+          "type": "residential",
+          "volume": 61520,
+          "position": [40, 0, -30]
+        },
+        {
+          "id": "tl-003",
+          "name": "水下酒店",
+          "type": "hotel",
+          "volume": 8400,
+          "position": [0, -10, 50],
+          "submerged": true
+        },
+        {
+          "id": "tl-004",
+          "name": "海洋研究中心",
+          "type": "public",
+          "volume": 20000,
+          "position": [-70, 0, 40]
+        },
+        {
+          "id": "tl-005",
+          "name": "小型核能发电船",
+          "type": "energy",
+          "volume": 20000,
+          "position": [80, 0, 60]
+        },
+        {
+          "id": "tl-006",
+          "name": "海水淡化厂",
+          "type": "industrial",
+          "volume": 15000,
+          "position": [-80, 0, -50]
+        },
+        {
+          "id": "tl-007",
+          "name": "游艇码头",
+          "type": "public",
+          "volume": 12000,
+          "position": [60, 0, -70]
+        },
+        {
+          "id": "tl-008",
+          "name": "海鲜餐厅区",
+          "type": "commercial",
+          "volume": 10000,
+          "position": [0, 0, -60]
+        },
+        {
+          "id": "tl-009",
+          "name": "潜水中心",
+          "type": "public",
+          "volume": 8000,
+          "position": [-50, 0, 80]
+        },
+        {
+          "id": "tl-010",
+          "name": "海洋公寓C",
+          "type": "residential",
+          "volume": 31750,
+          "position": [20, 0, 80]
+        }
+      ]
+    }
+  }
+}

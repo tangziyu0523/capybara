@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+.npm/
+
+# Build artifacts
+dist/
+build/
+.output/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trash-1000
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Trae/AI artifacts
+.opencode/
+.trae/

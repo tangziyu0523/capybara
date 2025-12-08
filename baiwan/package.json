@@ -1,0 +1,27 @@
+{
+  "name": "xuanyi-city-3d-mvp",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "three": "^0.169.0",
+    "postprocessing": "^6.36.0",
+    "lil-gui": "^0.19.2",
+    "stats.js": "^0.17.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "eslint": "^9.9.0",
+    "prettier": "^3.3.3",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "@eslint/js": "^9.9.0"
+  }
+}
